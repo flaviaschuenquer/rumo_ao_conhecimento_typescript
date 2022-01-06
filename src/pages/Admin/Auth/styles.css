@@ -1,0 +1,61 @@
+.auth-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 60px;
+}
+
+.auth-form-container {
+  width: 500%;
+  border: 1px solid blue;
+}
+
+.login-submit {
+  margin-bottom: 10px;
+}
+
+@media (min-width: 576px) {
+  .auth-form-container {
+    width: 300px;
+  }
+  .login-submit {
+    margin-bottom: 10px;
+  }
+}
+
+@media (min-width: 768px) {
+  .auth-form-container {
+    width: 550px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .auth-banner-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    width: 700px;
+  }
+
+  .auth-banner-container p {
+    font-size: 18px;
+    letter-spacing: -0.015em;
+    color: #263238;
+  }
+
+  .auth-banner-container svg {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1400px) {
+  .auth-banner-container {
+    width: 700px;
+  }
+
+  .auth-banner-container p {
+    font-size: 24px;
+  }
+  .login-submit {
+    margin-bottom: 10px;
+  }
+}
